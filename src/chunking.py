@@ -1,4 +1,4 @@
-# app/chunking.py
+# src/chunking.py
 from typing import List
 from transformers import AutoTokenizer
 

@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from transformers import pipeline
-from app.chunking import chunk_text
+from src.chunking import chunk_text
 
 MODEL_NAME = "t5-base"
 _summarizer = pipeline("summarization", model=MODEL_NAME)
