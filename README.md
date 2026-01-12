@@ -103,15 +103,15 @@ cd course-summarization-ai
 source .venv/bin/activate  # Linux / Mac
 .venv\Scripts\activate     # Windows
 ```
-###3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 ```
 pip install -r requirements.txt
 ```
-##📦 Model Weights
+## 📦 Model Weights
 
 The fine-tuned model (~900 MB) is not stored in this repository.
 
-To use the application:
+### To use the application:
 
 Fine-tune the model yourself or
 
@@ -121,16 +121,17 @@ Place them in the following directory:
 
 models/t5_scisumm_finetuned/
 
-##▶️ Run the Application
+## ▶️ Run the Application
 
 From the project root:
 
-python -m app.app
-
+```python -m app.app
+```
 
 Then open the URL shown in your terminal (usually http://127.0.0.1:7860).
 
-✨ Example Use Cases
+
+## ✨ Example Use Cases
 
 Summarizing lecture notes
 
@@ -140,7 +141,7 @@ Generating quick overviews of course materials
 
 Pre-reading support for exams or research
 
-🧪 Technologies Used
+## 🧪 Technologies Used
 
 Python
 
@@ -154,20 +155,3 @@ ROUGE
 
 SentencePiece
 
-📌 Future Improvements
-
-Upload model to Hugging Face Hub
-
-Add batch PDF upload
-
-Add citation-aware summarization
-
-Support multilingual summarization
-
-Deploy as a cloud API
-
-👩‍💻 Author
-
-Zeineb Dridi
-AI Researcher & Software Engineer
-GitHub: https://github.com/zeineb24
