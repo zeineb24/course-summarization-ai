@@ -5,8 +5,8 @@ This project implements an **end-to-end NLP pipeline** for summarizing long cour
 It supports **long documents via token-level chunking**, **hierarchical summarization**, and an **interactive Gradio web interface**.
 
 ![Demo]
+![Animation](https://github.com/user-attachments/assets/299e7910-a9e5-4df9-91a9-de0ab907927f)
 
-![Animation](https://github.com/user-attachments/assets/ce6f8024-fdef-49d8-be9d-bf4f90dbf687)
 
 
 ---
