@@ -125,7 +125,7 @@ models/t5_scisumm_finetuned/
 
 From the project root:
 
-```python -m app.app
+python -m app.app
 ```
 
 Then open the URL shown in your terminal (usually http://127.0.0.1:7860).
